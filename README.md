@@ -6,9 +6,7 @@
 
 # Descrição Resumida do Projeto
 O projeto consiste num jogo feito em espaco celular baseado em turnos.
-
-O jogo consiste em um jogador correndo de dois antagonistas, a Unicamp e um doente, sendo que a primeira solta atividades e o segundo solta corona virus.
-
+O jogo tem como personagens um jogador correndo de dois antagonistas, a Unicamp e um doente, sendo que a primeira solta atividades e o segundo solta corona virus.
 A cada turno o jogador pode realizar um movimento e os antagonistas e personagens se movem,
 
 # Vídeo do Projeto
