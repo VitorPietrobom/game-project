@@ -28,7 +28,7 @@ Diagrama geral:
 
 ![Diagrama Geral](modelo_geral_dos_componentes-jogo.PNG)
 
-Para cada componente será apresentado um documento conforme o modelo a seguir:
+Como todos os componentes tem a mesma herança de interfaces, fizemos apenas a primeira sucessão de interfaces
 
 # Componente Jogador
 
@@ -46,18 +46,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 # Componente Vacina
 
@@ -75,18 +63,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 # Componente Covid-19
 
@@ -104,18 +80,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 # Componente Doente
 
@@ -133,18 +97,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 # Componente Atividade
 
@@ -162,18 +114,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 # Componente Unicamp
 
@@ -191,18 +131,6 @@ Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08compone
 Autores | `<nome dos membros que criaram o componente>`
 Objetivo | `<objetivo do componente>`
 Interface | `<interface em Java do componente>`
-~~~
-public interface ITableProducer {
-  String[] requestAttributes();
-  String[][] requestInstances();
-}
-public interface IDataSource {
-  public String getDataSource();
-  public void setDataSource(String dataSource);
-}
-public interface IDataSet extends ITableProducer, IDataSource {
-}
-~~~
 
 
 
