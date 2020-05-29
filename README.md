@@ -61,29 +61,19 @@ public interface IDataSet extends ITableProducer, IDataSource {
 
 ## Detalhamento das Interfaces
 
-### Interface `<nome da interface>`
-`<papel da interface>`.
+### Interface Imovimento
+Analisar o movimento e colisão das peças, determinar se é ou não possível movimentar.
 
 Método | Objetivo
 -------| --------
-`<id do método em Java>` | `<objetivo do método e descrição dos parâmetros>`
+move(pos_x: int, pos_y: int, tabuleiro: Itabuleiro): boolean | Analisar se o movimento é válido. Os parâmetros pos_x e pos_y indicam a posição final da peça, o tabuleiro é passado como parâmetro para ter acesso à matriz em que estão as peças do jogo
+collision(pos_x: int, pos_y: int, tabuleiro: ITabuleiro)|Analisar o caso de colisões . Os mesmos parâmetros são passados.
 
-## Exemplo:
+### Interface ITabuleiro
 
-### Interface `ITableProducer`
-
-Interface provida por qualquer fonte de dados que os forneça na forma de uma tabela.
-
-Método | Objetivo
--------| --------
-`requestAttributes` | Retorna um vetor com o nome de todos os atributos (colunas) da tabela.
-`requestInstances` | Retorna uma matriz em que cada linha representa uma instância e cada coluna o valor do respectivo atributo (a ordem dos atributos é a mesma daquela fornecida por `requestAttributes`.
-
-### Interface `IDataSetProperties`
-
-Define o recurso (usualmente o caminho para um arquivo em disco) que é a fonte de dados.
+Realizar a movimentação de uma peça. 
 
 Método | Objetivo
 -------| --------
-`getDataSource` | Retorna o caminho da fonte de dados.
-`setDataSource` | Define o caminho da fonte de dados, informado através do parâmetro `dataSource`.
+move(destino:pos_x: int, pos_y: int, tabuleiro: ITabuleiro, peca:Ipeca) | Realizar a movimentação de uma peça. 
+
