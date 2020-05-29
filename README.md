@@ -75,5 +75,5 @@ Realizar a movimentação de uma peça.
 
 Método | Objetivo
 -------| --------
-move(destino:pos_x: int, pos_y: int, tabuleiro: ITabuleiro, peca:Ipeca) | Realizar a movimentação de uma peça. 
+move(destino:pos_x: int, pos_y: int, tabuleiro: ITabuleiro, peca:Ipeca) | Realizar a movimentação de uma peça. Os parâmetros são passados para localizar a peça e sua posição final.
 
