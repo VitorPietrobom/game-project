@@ -30,9 +30,9 @@ Diagrama geral:
 
 Para cada componente será apresentado um documento conforme o modelo a seguir:
 
-# Componente `<Nome do Componente>`
+# Componente Jogador
 
-![Componente](diagrama-componente.png)
+![Componente](Jogador.PNG)
 
 ## Interfaces
 
@@ -58,6 +58,154 @@ public interface IDataSource {
 public interface IDataSet extends ITableProducer, IDataSource {
 }
 ~~~
+
+# Componente Vacina
+
+![Componente](Vacina.PNG)
+
+## Interfaces
+
+Interfaces associadas a esse componente:
+
+![Diagrama Interfaces](diagrama-interfaces.png)
+
+Campo | Valor
+----- | -----
+Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Autores | `<nome dos membros que criaram o componente>`
+Objetivo | `<objetivo do componente>`
+Interface | `<interface em Java do componente>`
+~~~
+public interface ITableProducer {
+  String[] requestAttributes();
+  String[][] requestInstances();
+}
+public interface IDataSource {
+  public String getDataSource();
+  public void setDataSource(String dataSource);
+}
+public interface IDataSet extends ITableProducer, IDataSource {
+}
+~~~
+
+# Componente Covid-19
+
+![Componente](Covid.PNG)
+
+## Interfaces
+
+Interfaces associadas a esse componente:
+
+![Diagrama Interfaces](diagrama-interfaces.png)
+
+Campo | Valor
+----- | -----
+Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Autores | `<nome dos membros que criaram o componente>`
+Objetivo | `<objetivo do componente>`
+Interface | `<interface em Java do componente>`
+~~~
+public interface ITableProducer {
+  String[] requestAttributes();
+  String[][] requestInstances();
+}
+public interface IDataSource {
+  public String getDataSource();
+  public void setDataSource(String dataSource);
+}
+public interface IDataSet extends ITableProducer, IDataSource {
+}
+~~~
+
+# Componente Doente
+
+![Componente](Doente.PNG)
+
+## Interfaces
+
+Interfaces associadas a esse componente:
+
+![Diagrama Interfaces](diagrama-interfaces.png)
+
+Campo | Valor
+----- | -----
+Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Autores | `<nome dos membros que criaram o componente>`
+Objetivo | `<objetivo do componente>`
+Interface | `<interface em Java do componente>`
+~~~
+public interface ITableProducer {
+  String[] requestAttributes();
+  String[][] requestInstances();
+}
+public interface IDataSource {
+  public String getDataSource();
+  public void setDataSource(String dataSource);
+}
+public interface IDataSet extends ITableProducer, IDataSource {
+}
+~~~
+
+# Componente Atividade
+
+![Componente](Atividade.PNG)
+
+## Interfaces
+
+Interfaces associadas a esse componente:
+
+![Diagrama Interfaces](diagrama-interfaces.png)
+
+Campo | Valor
+----- | -----
+Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Autores | `<nome dos membros que criaram o componente>`
+Objetivo | `<objetivo do componente>`
+Interface | `<interface em Java do componente>`
+~~~
+public interface ITableProducer {
+  String[] requestAttributes();
+  String[][] requestInstances();
+}
+public interface IDataSource {
+  public String getDataSource();
+  public void setDataSource(String dataSource);
+}
+public interface IDataSet extends ITableProducer, IDataSource {
+}
+~~~
+
+# Componente Unicamp
+
+![Componente](Unicamp.PNG)
+
+## Interfaces
+
+Interfaces associadas a esse componente:
+
+![Diagrama Interfaces](diagrama-interfaces.png)
+
+Campo | Valor
+----- | -----
+Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
+Autores | `<nome dos membros que criaram o componente>`
+Objetivo | `<objetivo do componente>`
+Interface | `<interface em Java do componente>`
+~~~
+public interface ITableProducer {
+  String[] requestAttributes();
+  String[][] requestInstances();
+}
+public interface IDataSource {
+  public String getDataSource();
+  public void setDataSource(String dataSource);
+}
+public interface IDataSet extends ITableProducer, IDataSource {
+}
+~~~
+
+
+
 
 ## Detalhamento das Interfaces
 
