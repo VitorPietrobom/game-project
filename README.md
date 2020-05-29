@@ -2,7 +2,7 @@
 
 O vídeo a seguir apresenta um detalhamento de um projeto baseado em componentes:
 
-[![Projeto baseado em Componentes](http://img.youtu.be/el5MtHRGmbc/0.jpg)](https://youtu.be/el5MtHRGmbc)
+[![Video explicativo sobre o projeto](https://img.youtube.com/vi/https://youtu.be/el5MtHRGmbc/0.jpg)](https://youtu.be/el5MtHRGmbc)
 
 Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
 [Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
