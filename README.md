@@ -42,10 +42,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar o Jogador
+Interface | IPeca
 
 # Componente Vacina
 
@@ -59,10 +59,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar a Vacina
+Interface | IPeca
 
 # Componente Covid-19
 
@@ -76,10 +76,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar o Covid
+Interface | IPeca
 
 # Componente Doente
 
@@ -93,10 +93,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar o Doente
+Interface | IPeca
 
 # Componente Atividade
 
@@ -110,10 +110,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar a Atividade
+Interface | IPeca
 
 # Componente Unicamp
 
@@ -127,10 +127,10 @@ Interfaces associadas a esse componente:
 
 Campo | Valor
 ----- | -----
-Classe | `<caminho completo da classe com pacotes>` <br> Exemplo: `pt.c08componentes.s20catalog.s10ds.DataSetComponent`
-Autores | `<nome dos membros que criaram o componente>`
-Objetivo | `<objetivo do componente>`
-Interface | `<interface em Java do componente>`
+Classe | Ainda nao criada
+Autores | Vitor e Guilherme
+Objetivo | Representar a Unicamp
+Interface | IPeca
 
 
 
