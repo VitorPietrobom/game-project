@@ -28,7 +28,7 @@ Diagrama geral:
 
 ![Diagrama Geral](modelo_geral_dos_componentes-jogo.PNG)
 
-Como todos os componentes tem a mesma herança de interfaces, implementando somente IPeca, nao colocamos o diagrama de cada componente separadamente. A classe abstrata Obstáculo terá a função randow_move, herdada pelas subclasses Atividade e Covid-19. A classe abstrata Peca terá as funções randow_move e create, herdadas pelas subclasses Unicamp e Doente.
+Como todos os componentes tem a mesma herança de interfaces, implementando somente IPeca, nao colocamos o diagrama de cada componente separadamente. A classe abstrata Obstaculo terá a função randow_move, herdada pelas subclasses Atividade e Covid-19. A classe abstrata Peca terá as funções randow_move e create, herdadas pelas subclasses Unicamp e Doente.
 
 # Componente Jogador
 
