@@ -1,32 +1,16 @@
-# game-project
-
-O vídeo a seguir apresenta um detalhamento de um projeto baseado em componentes:
-
-[![Video explicativo sobre o projeto](https://img.youtube.com/vi/https://youtu.be/el5MtHRGmbc/0.jpg)](https://youtu.be/el5MtHRGmbc)
-
-Este é um guia de como produzir documentação em Markdown. Para entender como criar documentos em Markdown no Github, veja o material/vídeo:
-[Guia de Uso do Markdown](https://github.com/mc-unicamp/oficinas/tree/master/docs).
-
-Vide detalhes sobre o Markdown em: [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-E mais especificamente sobre tabelas em: [Organizing information with tables](https://help.github.com/en/articles/organizing-information-with-tables)
-
-Segue abaixo o modelo de como deve ser documentado o projeto e cada componente do projeto. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos do seu projeto.
-
-Para a construção dos diagramas, devem ser usados modelos disponíveis em: [Diagramas de Classes, Interfaces e Componentes](https://docs.google.com/presentation/d/1ML3WrnDtzh-4wqLmdXN9au1TBIwEqo7TIbMLNOYSMAI/edit?usp=sharing)
-
-# Modelo para Documentação do Projeto
-
-# Projeto `<Título>`
+# Projeto EaD Corona Run
 
 # Equipe
-* `<nome completo>` - `<RA>`
+* Vitor Rodrigues Pietrobom - 245584
+* Guilherme Tezoli Bakaukas - 217332
 
 # Descrição Resumida do Projeto
-`<descreva resumidamente o que fará o projeto>`
+O projeto consiste num jogo feito em espaco celular baseado em turnos.
+O jogo consiste em um jogador correndo de dois antagonistas, a Unicamp e um doente, sendo que a primeira solta atividades e o segundo solta corona virus.
+A cada turno o jogador pode realizar um movimento e os antagonistas e personagens se movem,
 
 # Vídeo do Projeto
-`<coloque um link para o vídeo do projeto, se houver>`
+[![Video explicativo sobre o projeto](https://img.youtube.com/vi/https://youtu.be/el5MtHRGmbc/0.jpg)](https://youtu.be/el5MtHRGmbc)
 
 # Diagrama Geral de Componentes
 
