@@ -28,7 +28,7 @@ Diagrama geral:
 
 ![Diagrama Geral](modelo_geral_dos_componentes-jogo.PNG)
 
-Como todos os componentes tem a mesma herança de interfaces, fizemos apenas a primeira sucessão de interfaces
+Como todos os componentes tem a mesma herança de interfaces, implementando somente IPeca, nao colocamos o diagrama de cada componente separadamente.
 
 # Componente Jogador
 
