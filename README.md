@@ -38,7 +38,7 @@ Como todos os componentes tem a mesma herança de interfaces, fizemos apenas a p
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FJogador.PNG)
 
 Campo | Valor
 ----- | -----
@@ -55,7 +55,7 @@ Interface | IPeca
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FVacina.PNG)
 
 Campo | Valor
 ----- | -----
@@ -72,7 +72,7 @@ Interface | IPeca
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FCovid.PNG)
 
 Campo | Valor
 ----- | -----
@@ -89,7 +89,7 @@ Interface | IPeca
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FDoente.PNG)
 
 Campo | Valor
 ----- | -----
@@ -106,7 +106,7 @@ Interface | IPeca
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FAtividade.PNG)
 
 Campo | Valor
 ----- | -----
@@ -123,7 +123,7 @@ Interface | IPeca
 
 Interfaces associadas a esse componente:
 
-![Diagrama Interfaces](diagrama-interfaces.png)
+![Diagrama Interfaces](FUnicamp.PNG)
 
 Campo | Valor
 ----- | -----
