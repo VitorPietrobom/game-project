@@ -18,8 +18,15 @@ A cada turno o jogador pode realizar um movimento e os antagonistas e personagen
 
 Este é um diagrama inicial do jogo proposto:
 
-![Diagrama Jogos](diagrama-componentes-jogos.png)
+![Diagrama Jogos](diagrama_componentes-jogo.PNG)
 
+Diagrama de herança das interfaces:
+
+![Diagrama Interfaces](Interfaces_heranca-jogo.PNG)
+
+Diagrama geral:
+
+![Diagrama Geral](modelo_geral_dos_componentes-jogo.PNG)
 
 Para cada componente será apresentado um documento conforme o modelo a seguir:
 
