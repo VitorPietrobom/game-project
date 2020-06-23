@@ -7,12 +7,11 @@ public class Unicamp extends JLabel {
 	private static final long serialVersionUID = -9047898149398844451L;
 	
 	private int linha,coluna;
+	private Tabuleiro tabuleiro;
 	
 	public Unicamp(String image) {
 		super(new ImageIcon(image));
 		setSize(10,10);
-		this.linha=1;//inicia na primeira posição do tabuleiro
-		this.coluna=1;
 	}
 	
 	public int[] random_positions() {
@@ -28,10 +27,10 @@ public class Unicamp extends JLabel {
 	}
 	
 	public boolean verifica_movimento(int[] vetor) {//verifica se as posições se encaixam com o tabuleiro
-		if ((vetor[0])>6 || (vetor[0])<1) {
+		if ((vetor[0])>tabuleiro.linha || (vetor[0])<1) {
 			return false;
 		}
-		if ((vetor[1])>6 || (vetor[1]<1)) {
+		if ((vetor[1])>tabuleiro.coluna || (vetor[1]<1)) {
 			return false;
 		}
 		return true;
@@ -46,8 +45,14 @@ public class Unicamp extends JLabel {
 		this.coluna=vetor[1];
 		
 		
-		int num=(vetor[0]-1)*6 + vetor[1];// da a posição para ajudar no for da construção do tabuleiro
+		int num=(vetor[0]-1)*tabuleiro.linha + vetor[1];// da a posição para ajudar no for da construção do tabuleiro
 		return (num);
+	}
+	
+	public void vinculate_tabuleiro(Tabuleiro tabuleiro){
+		this.tabuleiro=tabuleiro;
+		this.linha=1;//inicia na primeira posição do tabuleiro (podemos mudar)
+		this.coluna=1;
 	}
 	
 }

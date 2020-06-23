@@ -11,10 +11,11 @@ public class Usuario extends JLabel implements ActionListener {
 	private JButton up,right,left,down;
 	private Janela janela;
 	private int linha,coluna;//define a posição da imagem inicia no zero
+	private Tabuleiro tabuleiro;
 	
 	public void actionPerformed(ActionEvent event) {
 		if (event.getSource()==right) {
-			if (coluna<6) {
+			if (coluna<tabuleiro.coluna) {
 				coluna++;
 				janela.recreate_cenario(linha,coluna);
 			}
@@ -32,7 +33,7 @@ public class Usuario extends JLabel implements ActionListener {
 			}
 		}
 		if (event.getSource()==down) {
-			if (linha<6) {
+			if (linha<tabuleiro.linha) {
 				linha++;
 				janela.recreate_cenario(linha, coluna);
 			}
@@ -43,8 +44,6 @@ public class Usuario extends JLabel implements ActionListener {
 	public Usuario(String image) {
 		super(new ImageIcon(image));
 		setSize(10,10);
-		this.linha=6;
-		this.coluna=6;
 	}
 
 	public void vinculateButtons(JButton up,JButton right,JButton left,JButton down) {
@@ -56,6 +55,12 @@ public class Usuario extends JLabel implements ActionListener {
 	
 	public void vinculateJanela(Janela janela) {
 		this.janela=janela;
+	}
+	
+	public void vinculate_tabuleiro(Tabuleiro tabuleiro) {
+		this.tabuleiro=tabuleiro;
+		this.linha=tabuleiro.linha;//usuario começa na ultima posição do tabuleiro
+		this.coluna=tabuleiro.coluna;
 	}
 
 }

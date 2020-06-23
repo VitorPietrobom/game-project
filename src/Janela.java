@@ -27,7 +27,7 @@ public class Janela extends JFrame{
         principalPane= getContentPane();//painel principal
         principalPane.setLayout(new BorderLayout());
         
-        tabuleiro= new Tabuleiro(this);// painel das imagens
+        tabuleiro= new Tabuleiro(this,10,10);// painel das imagens
         principalPane.add(tabuleiro.imagePane,BorderLayout.CENTER);
         
         controlPane=new JPanel();//painel de controle
@@ -58,7 +58,6 @@ public class Janela extends JFrame{
 	}
 	
 	public void atualizar() {
-		principalPane.add(tabuleiro.imagePane,BorderLayout.CENTER);
 		SwingUtilities.updateComponentTreeUI(this);
 	}
 }

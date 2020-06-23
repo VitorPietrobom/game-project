@@ -14,28 +14,39 @@ public class Tabuleiro {
 	private Usuario usuario;
 	public JPanel imagePane;
 	private Janela janela;
+	public int linha,coluna;
 	
 
-	public Tabuleiro(Janela janela) {
+	public Tabuleiro(Janela janela, int linha, int coluna) {
 		this.janela=janela;
+		this.linha=linha;
+		this.coluna=coluna;
 		imagePane= new JPanel();// painel das imagens
-        imagePane.setLayout(new GridLayout(6,6));
+        imagePane.setLayout(new GridLayout(linha,coluna));
 	}
 	
 	public void create_tabuleiro(String ambiente, Unicamp unicamp, Usuario usuario) {
+		
 		this.ambiente=ambiente;//vincular as classes e imagens do cenário ao tabuleiro
 		this.usuario=usuario;
 		this.unicamp=unicamp;
 		
+		vinculate_components();//vincula o tabuleiro aos seus componentes
+		
 		imagePane.add(unicamp);
 		
-		for (int i=0;i<34;i++) {
+		for (int i=0;i<(linha*coluna-1);i++) {
 		    ImageIcon imagem = new ImageIcon(ambiente);
 		    JLabel campoImagem = new JLabel(imagem);
 			imagePane.add(campoImagem);
 			}
 		
 		imagePane.add(usuario);
+	}
+	
+	private void vinculate_components() {
+		unicamp.vinculate_tabuleiro(this);
+		usuario.vinculate_tabuleiro(this);
 	}
 	
 	private Timer timer=new Timer();
@@ -58,9 +69,8 @@ public class Tabuleiro {
 	}
 	
 	private void movimentar_pecas() {
-		janela.principalPane.remove(imagePane);
-		imagePane=new JPanel();//criação de um novo cenário
-		imagePane.setLayout(new GridLayout(6,6));
+		
+		imagePane.removeAll();
 		
 		int pos_unicamp = unicamp.movimenta();
 		
@@ -72,7 +82,7 @@ public class Tabuleiro {
 	    
 		imagePane.add(unicamp);
 		
-		for (int i=pos_unicamp+1;i<36;i++) {
+		for (int i=pos_unicamp+1;i<linha*coluna;i++) {
 			ImageIcon imagem = new ImageIcon(ambiente);
 		    JLabel campoImagem = new JLabel(imagem);
 			imagePane.add(campoImagem);
